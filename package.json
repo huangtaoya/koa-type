@@ -1,0 +1,30 @@
+{
+    "name": "koa-dome",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "watch-server": "nodemon --exec ts-node ./src/server.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/koa2-cors": "^2.0.1",
+        "@types/mysql": "^2.15.14",
+        "koa": "^2.13.0",
+        "koa-router": "^9.0.1",
+        "koa2-cors": "^2.0.6",
+        "mysql": "^2.18.1",
+        "svg-captcha": "^1.4.0"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.11.3",
+        "@types/koa-router": "^7.4.1",
+        "nodemon": "^2.0.4",
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.5"
+    }
+}
